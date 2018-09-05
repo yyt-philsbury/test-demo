@@ -1,9 +1,25 @@
 const preset_diagnosis = [
-    ['Churg-Strauss Syndrome', 'Lung cancer', 'Lung Abscess'],
-    ['Bacterial Meningitis', 'Sinusitis', 'Vitamin B12 deficiency'],
+    ['Churg-Strauss Syndrome', 'Lung cancer', 'Lung abscess*'],
+    ['Bacterial Meningitis*', 'Sinusitis', 'Vitamin B12 deficiency'],
     ['Vitamin B12 Deficiency', 'Hodgkin disease', 'Aortic Arch Syndrome'],
-    ['Asthma', 'Influenza', 'Sinusitis'],
-    ['Esophageal Perforation', 'Peptic Ulcer', 'Gastritis', 'Angina'],
+    ['Asthma*', 'Influenza', 'Sinusitis'],
+    ['Duodenitis', 'Gastritis', 'Button battery ingestion*'],
+]
+
+const preset_diagnosis2 = [
+    ['Bacterial Pneumonia*', 'Lung cancer', 'Photic Sneeze Reflex'],
+    ['Adrenal cancer', 'Sinusitis', 'Concussion*'],
+    ['Brucellosis', 'Cytomegalovirus', 'Renal failure'],
+    ['Hay Fever', 'Influenza', 'Sinusitis'],
+    ['Protein C and S deficiencies', 'Angina*'],
+]
+
+const preset_diagnosis3 = [
+    ['Brain Tumor*', 'Lung cancer', 'Lung abscess*'],
+    ['Bacterial Meningitis*', 'Migraine', 'Intracranial Hemorrhage*'],
+    ['Spinal infections*', 'Endocartitis*', 'Renal failure'],
+    ['Tuberculosis*', 'Lung abscess*', 'Influenza'],
+    ['Esophageal Perforation*', 'Peptic Ulcer', 'Gastritis', 'Angina*'],
 ]
 
 const preset_patient_info = [
@@ -22,4 +38,4 @@ const preset_patient_symptoms = [
     ['heart pain', 'black stools'],
 ]
 
-export {preset_diagnosis, preset_patient_info, preset_patient_symptoms};
+export {preset_diagnosis, preset_diagnosis2, preset_diagnosis3, preset_patient_info, preset_patient_symptoms};
